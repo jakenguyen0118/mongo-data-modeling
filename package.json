@@ -1,0 +1,21 @@
+{
+  "name": "mongo-data-modeling-exercise",
+  "version": "1.0.0",
+  "description": "data modeling",
+  "main": "index.js",
+  "dependencies": {
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:seed": "node ./db/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/jakenguyen/mongo-data-modeling-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
