@@ -1,7 +1,7 @@
 const mongoose = require('../db/connection')
 const Schema = mongoose.Schema
 
-const bestSchema = newSchema(
+const bestSchema = new Schema(
     {
         year: Number,
         sports: {

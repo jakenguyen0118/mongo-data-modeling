@@ -1,8 +1,6 @@
 const mongoose = require('../db/connection')
 const Schema = mongoose.Schema
 
-const Schema = mongoose.Schema
-
 const penpalsSchema = new Schema(
     {
         to: String,
